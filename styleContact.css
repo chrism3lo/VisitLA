@@ -1,0 +1,120 @@
+*{
+  margin:0px;
+  padding:0px;
+  color: inherit;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+/* Navigation Bar Code */
+nav{
+  width: 100vw;
+  position:fixed;
+  text-align: center;
+
+}
+
+nav ul{
+  margin:0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  color:white;
+  width: 100vw;
+  display: flex;
+  height:30px;
+  padding-bottom: 10px;
+  background-color: black;
+}
+
+nav li{
+
+  font-size: 20px;
+  padding: 10px;
+
+}
+
+ nav a:hover {
+  border-bottom: 4px solid white;
+  transition: 0.1s;
+}
+/* Navigation Bar Code */
+
+
+
+.hero-image{
+  background-image: url("Images/LA_Sunset.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+h3{
+  padding: 80px;
+  text-align: center;
+}
+
+
+
+/* form code */
+
+
+form{
+  text-align: center;
+  color: black;
+}
+
+label{
+  color: white;
+}
+
+
+
+input{
+  width: 200px;
+  height: 45px;
+  border-radius: 15px;
+  color: black;
+}
+
+/* form code */
+
+
+
+
+
+/* Footer Code */
+footer{
+  position: static;
+  bottom: 0;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+footer ul{
+  list-style: none;
+  text-decoration: none;
+  width: 100vw;
+  height: 50px;
+  text-align: center;
+}
+footer li{
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+  font-size: 30px;
+}
+
+ footer a:hover {
+  border-bottom: 4px solid white;
+  transition: 0.1s;
+}
+
+footer img{
+  height: 60px;
+
+}
+
+/* Footer Code */

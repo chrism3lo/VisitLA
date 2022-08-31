@@ -1,0 +1,138 @@
+*{
+  margin:0px;
+  padding:0px;
+  color: inherit;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+/* Navigation Bar Code */
+nav{
+  width: 100vw;
+  position:fixed;
+  text-align: center;
+
+}
+
+nav ul{
+  list-style: none;
+  text-decoration: none;
+  color:white;
+  width: 100vw;
+  display: flex;
+  height: 75px;
+  padding-bottom: 10px;
+  
+}
+
+nav li{
+  display: flex;
+  font-size: 20px;
+  padding: 10px;
+
+}
+
+ nav a:hover {
+  border-bottom: 4px solid white;
+  transition: 0.1s;
+}
+/* Navigation Bar Code */
+
+
+
+/*------------ Home Page ------- */
+
+/* Hero  Code */
+.hero-image{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/skylineLA.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+}
+.home-content{
+  text-align: center;
+  padding: 80px;
+  color: white;
+  z-index: 100;
+} 
+
+.home-content h1{
+  font-size: 30px;
+}
+
+.home-content p{
+ padding: 100px; 
+ font-size: 20px;
+}
+
+
+/* Hero  Code */
+
+
+/*------------ Home Page ------- */
+
+
+/* Activities Page */
+body{
+  background-color: rgb(0, 0, 0);
+}
+section img{
+  height: 200px;
+  padding:30px;
+  display: block;
+  border-radius: 10px;
+}
+
+section {
+  padding: 40px;
+
+}
+.activity-content{
+  padding-bottom: 30px;
+}
+.flex-container{
+  display: flex;
+}
+
+
+.flex-child {
+    align-content: center;
+    width: 50%;
+
+}
+/* Activities Page */
+
+
+/* Footer Code */
+footer{
+  position: fixed;
+  bottom: 0;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+footer ul{
+  list-style: none;
+  text-decoration: none;
+  width: 100vw;
+  text-align: center;
+}
+footer li{
+  display: inline;
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+}
+
+footer img{
+  height: 60px;
+}
+
+ footer a:hover {
+  border-bottom: 4px solid white;
+  transition: 0.1s;
+}
+
+/* Footer Code */
